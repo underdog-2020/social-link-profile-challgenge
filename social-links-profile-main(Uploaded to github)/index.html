@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(0, 0%, 93%); }
+    body{
+      background-color: hsl(0, 0%, 8%);
+    }
+    .text{
+      color: white;
+    }
+    p{
+      color: white;
+    }
+    #container{
+      height: 600px;
+      width: 500px;
+      margin:auto;
+      padding: 10px;
+      background-color: hsl(0, 0%, 12%);
+      display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 10%;
+    }
+    img{
+      border-radius: 50%;
+      size: 10%;
+    }
+    h1{
+      color:hsl(0, 0%, 100%) ;
+    }
+    h2{
+      color: hsl(75, 94%, 57%);
+      font-size: medium;
+    }
+    button{
+      width:80%;
+      height: 30px;
+      background-color: hsl(0, 0%, 20%);
+      border-radius: 10px;
+      color: hsl(0, 0%, 100%);
+      font-weight: bold;
+    }
+    #container div{
+      align-items: center;
+    }
+    
+    #Profile-links{
+      width:500px;
+      height:200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+   
+    @media (max-width:375px) {
+      #container{
+        height:100%;
+        width:100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id = "container">
+    <img src = "./assets/images/avatar-jessica.jpeg" alt = "Avatar of Jessica image"> 
+    <h1>Jessica Randall</h1>
+    <h2>London, United Kingdom</h2>
+    <p>"Front-end developer and avid reader."</p>
+
+  <div id = "Profile-links">
+    <button>GitHub</button>
+    <button>Frontend Mentor</button>
+    <button>LinkedIn</button>
+    <button>Twitter</button>
+    <button>Instagram</button>
+  </div>
+  </div>
+
+
+</div>  <div class="attribution">
+  <p> <div class = "text">Challenge by</div><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    <div class = 'text'>Coded by</div><a href="#">Ahaan</a>.</p> 
+  </div>
+</body>
+</html>
